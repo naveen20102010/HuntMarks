@@ -48,7 +48,7 @@ var j=i+1;
 	
 	document.addEventListener('DOMContentLoaded', function () {     //adding button click event on loading Domcontent  
     document.getElementById('btn').addEventListener('click', searchfun);// that will call the search function
-	document.body.style.backgroundImage="url('sky.jpg')";
+
 	
 	});
 
