@@ -1,4 +1,5 @@
 
+
 function searchfun()  //function that search using the given text.
 {
  
@@ -48,7 +49,7 @@ var j=i+1;
 	
 	document.addEventListener('DOMContentLoaded', function () {     //adding button click event on loading Domcontent  
     document.getElementById('btn').addEventListener('click', searchfun);// that will call the search function
-
+	
 	
 	});
 
@@ -56,6 +57,19 @@ var j=i+1;
 	var newUrl = event.target.href;
 	chrome.tabs.create({'url': newUrl})
  }
+
+
+
+
+	
+
+
+
+
+
+
+
+
 
 
 
